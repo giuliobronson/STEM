@@ -64,6 +64,8 @@ main {
     display: grid;
 }
 
+/*Intro da página*/
+
 #intro {
     height: 400px;
     width: 100%;
@@ -90,6 +92,8 @@ main {
     z-index: 1;
 }
 
+ /*Blog*/
+
 #blog {
     height: 600px;
     width: 100%;
@@ -99,7 +103,7 @@ main {
 .title {
     height: 50px;
     width: 25%;
-    margin: 20px auto;
+    margin: 20px auto 0px auto;
     padding: 5px;
     background-color: #eb922e;
     color: #ffffff;
@@ -175,7 +179,7 @@ main {
     text-align: justify;
     text-justify: inter-word;
 }
- 
+
 #window_info{
     display:grid;
     grid-template-rows: 50% 50% ;
@@ -213,7 +217,7 @@ main {
 
  /*Contatos*/
   
-.content2 {
+ .content2 {
     height: 500px;
     width: 940px;
     margin: 0 auto;
@@ -264,7 +268,6 @@ main {
 }
 
 /*Rodapé da página*/
-
 
 footer {
     height: 100px;
