@@ -186,6 +186,7 @@ main {
     display: grid;
     justify-content: center;
     align-items: center;
+}
 
 .content-box2 {
     height:  50px;
