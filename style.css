@@ -155,23 +155,29 @@ main {
     padding-left: 5px;
 }
 
-/*Rodapé da página*/
+/*Quem somos nós*/
 
-footer {
-    height: 100px;
-    width: 100%;
-    margin-top: auto;
-    background-color: #000000;
+#header_info {
+    color:#EB922E;
+    background-color: #ffffff;
+    padding: 5px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
-    align-items: center;
-    grid-row: 3 / 4;
+    width: 30%;
+    height: 50px;
+    margin: 30px 0px 30px 0px;
+    align-items: center;   
 }
 
-#logo2 {
-    height: 70%;
+#text_info{
+    margin-top: 50px;
+    text-align: justify;
+    text-justify: inter-word;
 }
-
+ 
+ /*Contatos*/
+  
 .content2 {
     height: 500px;
     width: 940px;
@@ -220,4 +226,21 @@ footer {
     position: absolute;
     top: 10px;
     left: 10px;
+}
+
+/*Rodapé da página*/
+
+footer {
+    height: 100px;
+    width: 100%;
+    margin-top: auto;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 3 / 4;
+}
+
+#logo2 {
+    height: 70%;
 }
