@@ -64,6 +64,8 @@ main {
     display: grid;
 }
 
+/*Intro da página*/
+
 #intro {
     height: 400px;
     width: 100%;
@@ -90,6 +92,8 @@ main {
     z-index: 1;
 }
 
+ /*Blog*/
+
 #blog {
     height: 600px;
     width: 100%;
@@ -99,7 +103,7 @@ main {
 .title {
     height: 50px;
     width: 25%;
-    margin: 20px auto;
+    margin: 20px auto 0px auto;
     padding: 5px;
     background-color: #eb922e;
     color: #ffffff;
@@ -175,10 +179,45 @@ main {
     text-align: justify;
     text-justify: inter-word;
 }
- 
+
+#window_info{
+    display:grid;
+    grid-template-rows: 50% 50% ;
+    align-items: center;
+    justify-content: center;
+    margin-top:140px;
+}
+
+#window_info img{
+    border-radius: 50%;
+    width: 300px;
+    height:300px;
+}
+
+.bold_text{
+    font-weight: 700px;
+}
+
+#info{
+    background-color: #EB922E;
+    display:grid;
+    grid-template-columns: 60% 1fr;
+    height:600px;
+    padding:100px;
+    color:#ffffff;
+    column-gap:60px;
+}
+
+#info_left{
+    display:grid;
+    align-items: flex-start;
+    grid-template-rows: 30% 50%;
+    row-gap:0px;
+}
+
  /*Contatos*/
   
-.content2 {
+ .content2 {
     height: 500px;
     width: 940px;
     margin: 0 auto;
