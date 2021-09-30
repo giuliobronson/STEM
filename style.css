@@ -92,7 +92,7 @@ main {
     z-index: 1;
 }
 
- /*Blog*/
+/*Blog*/
 
 #blog {
     height: 600px;
@@ -105,7 +105,7 @@ main {
     width: 25%;
     margin: 20px auto 0px auto;
     padding: 5px;
-    background-color: #eb922e;
+    background-color: #EB922E;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -217,7 +217,7 @@ main {
 
  /*Contatos*/
   
- .content2 {
+.content2 {
     height: 500px;
     width: 940px;
     margin: 0 auto;
