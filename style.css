@@ -64,6 +64,8 @@ main {
     display: grid;
 }
 
+/*Intro da página*/
+
 #intro {
     height: 400px;
     width: 100%;
@@ -89,6 +91,8 @@ main {
     text-align: center;
     z-index: 1;
 }
+
+ /*Blog*/
 
 #blog {
     height: 600px;
