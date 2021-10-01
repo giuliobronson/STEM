@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    width: 1440px;
+    width: 1400px;
     margin: 0px auto;
     display: grid;
     grid-template-rows: 110px 1fr 100px;
@@ -16,7 +16,7 @@ body {
 
 header {
     height: 110px;
-    width: 1440px;
+    width: 1400px;
     background-color:#040d1c;
     display: flex;
     justify-content: center;
