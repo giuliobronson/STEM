@@ -4,12 +4,25 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     width: 1400px;
     margin: 0px auto;
     display: grid;
     grid-template-rows: 110px 1fr 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        zoom: 65%;
+    }
+    header {
+        width: 65%;
+    }
 }
 
 /*Cabeçalho da página*/
